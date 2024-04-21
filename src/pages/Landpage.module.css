@@ -1,0 +1,89 @@
+.component11 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 235px;
+  object-fit: cover;
+  opacity: 0.34;
+  mix-blend-mode: normal;
+}
+.landpageChild, .landpageInner, .landpageItem {
+  background-color: white;
+  border: 1px solid #707070;
+  color: black;
+  width: 238px;
+  position: absolute;
+  top: calc(50% - 146px);
+  left: calc(50% - 119px);
+}
+.landpageChild:hover, .landpageInner:hover, .landpageItem:hover {
+  background-color: #B796E3;
+  color: white;
+}
+.landpageInner,
+.landpageItem {
+  top: calc(50% - 58px);
+}
+.landpageInner {
+  top: calc(50% + 29px);
+}
+.logoVector06 {
+  text-decoration: none;
+  position: absolute;
+  width: calc(100% - 16px);
+  top: 0;
+  right: 8px;
+  left: 8px;
+  height: 293px;
+  background-image: url(/public/logovector06@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.thePsxClub {
+  position: absolute;
+  bottom: 16px;
+  left: calc(50% - 146px);
+  font-weight: 300;
+}
+.asset6Icon {
+  bottom: 88px;
+  left: calc(50% - 106px);
+  width: 112px;
+  height: 113px;
+  cursor: grab;
+}
+.asset6Icon,
+.asset7Icon,
+.socialLinksIcon {
+  position: absolute;
+  object-fit: cover;
+}
+.asset7Icon {
+  bottom: 88px;
+  left: calc(50% + 6px);
+  width: 101px;
+  height: 84px;
+  cursor: grab;
+}
+.socialLinksIcon {
+  top: calc(50% + 406.07px);
+  left: calc(50% - 32.05px);
+  width: 64.11px;
+  height: 13.43px;
+}
+.landpage {
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 932px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

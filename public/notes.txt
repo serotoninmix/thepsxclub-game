@@ -1,0 +1,82 @@
+import { useCallback } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Dropdown, DropdownButton, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+import styles from "./KamaRoulette.module.css";
+
+const KamaRoulette = () => {
+  const navigate = useNavigate();
+
+  const onKamaRouletteContainerClick = useCallback(() => {
+    navigate("/kamaroulette-1");
+  }, [navigate]);
+
+  const onLogoVector07ImageClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  return (
+    <div className={styles.kamaRoulette} onClick={onKamaRouletteContainerClick}>
+      <img className={styles.component12} alt="" src="/undefined9.png" />
+      <div className={styles.thePsxClub}>
+        © 2023 The Psx Club. All Rights Reserved
+      </div>
+      <img
+        className={styles.logoVector07Icon}
+        alt=""
+        src="/logo-1@2x.png"
+        onClick={onLogoVector07ImageClick}
+      />
+      <DropdownButton
+        className={styles.menu}
+        variant="primary"
+        align="start"
+        drop="down"
+      >
+        <Dropdown.Item>menu</Dropdown.Item>
+      </DropdownButton>
+      <h1 className={styles.kamaRoulette1} id="krtitle">
+        KAMA-ROULETTE
+      </h1>
+      <Button
+        className={styles.completedButton}
+        variant="outline-primary"
+        href="/kamaroulette-1"
+      >
+        GENERATE
+      </Button>
+      <img className={styles.socialLinksIcon} alt="" src="/undefined1.png" />
+      <a className={styles.theWholeSubjectContainer} id="krtext">
+        <p
+          className={styles.theWholeSubject}
+        >{`“The whole subject of embracing, is of such a nature that men who ask questions about it, or who hear about it, or who talk about it, acquire thereby a desire for enjoyment.  `}</p>
+        <p className={styles.theWholeSubject}>
+          The rules apply so long as the passion of man is middling, but when
+          the wheel of love is set in motion, then there is no motion and no
+          order.”
+        </p>
+        <p className={styles.theWholeSubject}>- The Kamasutra</p>
+      </a>
+      <DropdownButton
+        className={styles.menu1}
+        title="CHOOSE CATEGORY"
+        variant="primary"
+        align="start"
+        drop="down"
+      >
+        <Dropdown.Item>Choose Category</Dropdown.Item>
+        <Dropdown.Item>Kamasutra</Dropdown.Item>
+        <Dropdown.Item>Oral</Dropdown.Item>
+        <Dropdown.Item>Anal</Dropdown.Item>
+        <Dropdown.Item>He Rides</Dropdown.Item>
+        <Dropdown.Item>She Rides</Dropdown.Item>
+        <Dropdown.Item>Threesome</Dropdown.Item>
+        <Dropdown.Item>All</Dropdown.Item>
+      </DropdownButton>
+    </div>
+  );
+};
+
+export default KamaRoulette;
+
+

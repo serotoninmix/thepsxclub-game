@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800;900&display=swap");
+html, body {
+  height: 100%;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-3xl: 22px;
+
+  /* Colors */
+  --color-darkslateblue: #593564;
+  --color-white: #fff;
+  --color-plum: #b796e3;
+}

@@ -1,0 +1,265 @@
+  /* Center the button */
+  .completedButton {
+    margin: 20px 0; /* Added margin for spacing */
+  }
+.component11,
+.logoVector07Icon {
+  position: absolute;
+  object-fit: cover;
+}
+.component11 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 235px;
+  opacity: 0.34;
+}
+.logoVector07Icon {
+  top: 19px;
+  left: 18px;
+  width: 157px;
+  height: 111px;
+  cursor: pointer;
+}
+.menu {
+  width: 61px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 49px;
+  right: 19px;
+}
+.fantasyGenerator {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 291px);
+  left: calc(50% - 119px);
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: inherit;
+}
+.welcomeToA {
+  margin: 0;
+}
+.inThisGame,
+.welcomeToA {
+  font-weight: 300;
+}
+.rack,
+.span {
+  font-weight: 900;
+  font-family: var(--font-montserrat);
+}
+.span {
+  font-weight: 300;
+}
+.inThisGameYouWillExplore {
+  margin: 0;
+}
+.welcomeToAContainer {
+  position: absolute;
+  width: calc(100% - 71px);
+  top: calc(50% - 236px);
+  left: 39px;
+  color: inherit;
+  display: inline-block;
+  height: 164px;
+  text-decoration: none;
+}
+.thePsxClub {
+  position: absolute;
+  bottom: 0;        /* Position it at the bottom */
+  font-weight: 300;
+  margin-top: 0;    /* Remove the top margin since it's now at the bottom */
+}
+
+.socialLinksIcon {
+  position: absolute;
+  top: calc(50% + 402.07px);
+  left: calc(50% - 32.05px);
+  width: 64.11px;
+  height: 13.43px;
+  object-fit: cover;
+}
+.completedButton {
+  background-color: white;
+  border: 1px solid #707070;
+  color: black;
+  width: 238px;
+  position: absolute;
+  top: calc(50% + 120px); 
+  left: calc(50% - 119px);
+}
+
+.completedButton:hover {
+  background-color: #B796E3;
+  color: white;
+}
+.fantasyGenerator1Child {
+  position: absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 109px);
+}
+.fantasyGenerator1Inner,
+.fantasyGenerator1Item {
+  position: absolute;
+  top: calc(50% + 6px);
+  left: calc(50% - 109px);
+}
+.fantasyGenerator1Inner {
+  top: calc(50% + 44px);
+}
+.fantasyGenerator1 {
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 932px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .fantasyGenerator1 {
+    height: auto; /* This will make sure it expands with its content */
+    padding: 20px 0; /* Some spacing on top and bottom */
+  }
+
+  /* Center the button */
+  .completedButton {
+    margin: 40px 0; /* Added margin for spacing */
+  }
+.component11,
+.logoVector07Icon {
+  position: absolute;
+  object-fit: cover;
+}
+.component11 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 235px;
+  opacity: 0.34;
+}
+.logoVector07Icon {
+  top: 19px;
+  left: 18px;
+  width: 157px;
+  height: 111px;
+  cursor: pointer;
+}
+.menu {
+  width: 61px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 49px;
+  right: 19px;
+}
+.fantasyGenerator {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 291px);
+  left: calc(50% - 119px);
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: inherit;
+}
+.welcomeToA {
+  margin: 0;
+}
+.inThisGame,
+.welcomeToA {
+  font-weight: 300;
+}
+.rack,
+.span {
+  font-weight: 900;
+  font-family: var(--font-montserrat);
+}
+.span {
+  font-weight: 300;
+}
+.inThisGameYouWillExplore {
+  margin: 0;
+}
+.welcomeToAContainer {
+  position: absolute;
+  width: calc(100% - 71px);
+  top: calc(50% - 236px);
+  left: 39px;
+  color: inherit;
+  display: inline-block;
+  height: 164px;
+  text-decoration: none;
+}
+.thePsxClub {
+  position: absolute;
+  bottom: 0;        /* Position it at the bottom */
+  font-weight: 300;
+  margin-top: 0;    /* Remove the top margin since it's now at the bottom */
+}
+
+.socialLinksIcon {
+  position: absolute;
+  top: calc(50% + 402.07px);
+  left: calc(50% - 32.05px);
+  width: 64.11px;
+  height: 13.43px;
+  object-fit: cover;
+}
+.completedButton {
+  background-color: white;
+  border: 1px solid #707070;
+  color: black;
+  width: 238px;
+  position: absolute;
+  top: calc(52% + 120px); 
+  left: calc(50% - 119px);
+}
+
+.completedButton:hover {
+  background-color: #B796E3;
+  color: white;
+}
+
+.fantasyGenerator1Child {
+  position: absolute;
+  top: calc(60% + 3.3%);
+  left: calc(53% - 109px);
+}
+
+.fantasyGenerator1Item {
+  position: absolute;
+  top: calc(60% + -1%);
+  left: calc(53% - 109px);
+}
+.fantasyGenerator1Inner {
+  position: absolute;
+  top: calc(50% + 4.4%);
+  left: calc(53% - 109px);
+}
+
+.fantasyGenerator1 {
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 932px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}}

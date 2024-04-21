@@ -1,0 +1,263 @@
+.loading-animation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+}
+
+.component12 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 235px;
+  object-fit: cover;
+  opacity: 0.34;
+}
+.thePsxClub {
+  position: absolute;
+  bottom: 16px;
+  left: calc(50% - 146px);
+  font-weight: 300;
+}
+.logoVector07Icon {
+  position: absolute;
+  top: 19px;
+  left: 18px;
+  width: 157px;
+  height: 111px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.menu {
+  width: 61px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 49px;
+  right: 19px;
+}
+.kamaRoulette1 {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 291px);
+  left: calc(50% - 93px);
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: inherit;
+}
+.completedButton {
+  background-color: white;
+  border: 1px solid #707070;
+  color: black;
+  width: 238px;
+  position: absolute;
+  top: calc(50% + 120px); 
+  left: calc(50% - 119px);
+}
+
+.completedButton:hover {
+  background-color: #B796E3;
+  color: white;
+}
+
+.socialLinksIcon {
+  width: 199px;
+  position: absolute;
+  top: calc(50% + 137px);
+  left: calc(50% - 99px);
+}
+.socialLinksIcon {
+  top: calc(50% + 402.07px);
+  left: calc(50% - 32.05px);
+  width: 64.11px;
+  height: 13.43px;
+  object-fit: cover;
+}
+.theWholeSubject {
+  margin: 0;
+}
+.theWholeSubjectContainer {
+  position: absolute;
+  width: calc(100% - 71px);
+  top: calc(50% - 236px);
+  left: 39px;
+  font-weight: 300;
+  color: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  height: 187px;
+  text-decoration: none;
+}
+.menu1 {
+  width: calc(100% - 136px);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 447px;
+  right: 68px;
+  left: 68px;
+}
+.menu1 button {
+  background-color: white !important;
+  color: black !important;
+}
+.menu1 button:hover {
+  background-color: #B796E3 !important;
+  color: white !important;
+}
+.kamaRoulette {
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 932px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
+@media (max-width: 768px) {
+  .loading-animation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  .component12 {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 235px;
+    object-fit: cover;
+    opacity: 0.34;
+  }
+  .thePsxClub {
+    position: absolute;
+    bottom: 16px;
+    left: calc(50% - 146px);
+    font-weight: 300;
+  }
+  .logoVector07Icon {
+    position: absolute;
+    top: 19px;
+    left: 18px;
+    width: 157px;
+    height: 111px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .menu {
+    width: 61px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 49px;
+    right: 19px;
+  }
+  .kamaRoulette1 {
+    margin: 0;
+    position: absolute;
+    top: calc(50% - 291px);
+    left: calc(50% - 93px);
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    font-family: inherit;
+  }
+  .completedButton {
+    background-color: white;
+    border: 1px solid #707070;
+    color: black;
+    width: 238px;
+    position: absolute;
+    top: calc(50% + 120px); 
+    left: calc(50% - 119px);
+  }
+  
+  .completedButton:hover {
+    background-color: #B796E3;
+    color: white;
+  }
+  
+  .socialLinksIcon {
+    width: 199px;
+    position: absolute;
+    top: calc(50% + 137px);
+    left: calc(50% - 99px);
+  }
+  .socialLinksIcon {
+    top: calc(50% + 402.07px);
+    left: calc(50% - 32.05px);
+    width: 64.11px;
+    height: 13.43px;
+    object-fit: cover;
+  }
+  .theWholeSubject {
+    margin: 0;
+  }
+  .theWholeSubjectContainer {
+    position: absolute;
+    width: calc(100% - 71px);
+    top: calc(50% - 236px);
+    left: 39px;
+    font-weight: 300;
+    color: inherit;
+    white-space: pre-wrap;
+    display: inline-block;
+    height: 187px;
+    text-decoration: none;
+  }
+  .menu1 {
+    width: calc(100% - 136px);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    right: 68px;
+    left: 68px;
+  }
+  .menu1 button {
+    background-color: white !important;
+    color: black !important;
+  }
+  .menu1 button:hover {
+    background-color: #B796E3 !important;
+    color: white !important;
+  }
+  .kamaRoulette {
+    position: relative;
+    background-color: var(--color-darkslateblue);
+    width: 100%;
+    height: 932px;
+    cursor: pointer;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-montserrat);
+  }
+}

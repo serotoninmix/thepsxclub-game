@@ -1,0 +1,198 @@
+.azMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-darkslateblue);
+    height: 100vh;
+    padding: 20px;
+    z-index: 1;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    z-index: 10;
+}
+
+.container {
+    overflow-y: auto;
+    flex: 1;
+    width: 80%;  /* Adjust width as required */
+    padding: 20px;
+    height: 235px;
+    margin: 80px 0;
+}
+
+.dropdown {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;           /* Added these lines */
+    justify-content: center; /* to center-align */
+}
+
+
+.dropdownTitle {
+    background-color: white;
+    border: 1px solid #707070;
+    color: black;
+    width: 238px;
+    display: block;
+    text-align: center; 
+  }
+  
+  .dropdownTitle:hover {
+    background-color: #B796E3;
+    color: white;
+  }
+
+  .dropdownContent {
+    text-align: center; 
+    max-width: 300px;   
+    white-space: normal;
+  }
+  
+  
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 10;
+} 
+
+.component11,
+.logoVector07Icon {
+    position: absolute;
+    object-fit: cover;
+}
+
+.component11 {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 235px;
+    opacity: 0.34;
+}
+
+.logoVector07Icon {
+    top: 19px;
+    left: 18px;
+    width: 157px;
+    height: 111px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 61px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 49px;
+    right: 19px;
+}
+
+.fantasyGenerator {
+    margin: 0;
+    position: absolute;
+    top: calc(50% - 291px);
+    left: calc(50% - 119px);
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    font-family: inherit;
+}
+
+.welcomeToA {
+    margin: 0;
+}
+
+.inThisGame,
+.welcomeToA {
+    font-weight: 300;
+}
+
+.rack,
+.span {
+    font-weight: 900;
+    font-family: var(--font-montserrat);
+}
+
+.span {
+    font-weight: 300;
+}
+
+.inThisGameYouWillExplore {
+    margin: 0;
+}
+
+.welcomeToAContainer {
+    position: absolute;
+    width: calc(100% - 71px);
+    top: calc(50% - 236px);
+    left: 39px;
+    color: inherit;
+    display: inline-block;
+    height: 164px;
+    text-decoration: none;
+}
+
+.thePsxClub {
+    position: absolute;
+    bottom: 0;        /* Position it at the bottom */
+    font-weight: 300;
+    margin-top: 0;    /* Remove the top margin since it's now at the bottom */
+    color: black;
+  }
+
+  .socialLinksIcon {
+    position: absolute;
+    top: calc(50% + 402.07px);
+    left: calc(50% - 32.05px);
+    width: 64.11px;
+    height: 13.43px;
+    object-fit: cover;
+  }
+
+@media (max-width: 768px) {
+    .fantasyGenerator1 {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .component11,
+    .logoVector07Icon {
+      position: absolute;
+      object-fit: cover;
+    }
+    .component11 {
+      width: 100%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      max-width: 100%;
+      overflow: hidden;
+      height: 235px;
+      opacity: 0.34;
+    }
+    .logoVector07Icon {
+      top: 19px;
+      left: 18px;
+      width: 157px;
+      height: 111px;
+      cursor: pointer;
+    }
+    .menu {
+        width: 61px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 49px;
+        right: 19px;
+      }}

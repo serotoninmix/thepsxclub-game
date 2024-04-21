@@ -1,4 +1,8 @@
-
+To test the project please go to: https://psxclub.pages.dev/
+To give feedback, find me at willowlink.com
+All feedback is appreciated, but please don't spam me with bs. ^-^
+  
+  
   # psx
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>

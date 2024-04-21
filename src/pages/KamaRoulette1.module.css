@@ -1,0 +1,122 @@
+.component12 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 235px;
+  object-fit: cover;
+  opacity: 0.34;
+}
+.thePsxClub {
+  position: absolute;
+  bottom: 16px;
+  left: calc(50% - 146px);
+  font-weight: 300;
+}
+.logoVector07Icon {
+  position: absolute;
+  top: 19px;
+  left: 18px;
+  width: 157px;
+  height: 111px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.menu {
+  width: 61px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 49px;
+  right: 19px;
+}
+.kamaRoulette {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 291px);
+  left: calc(50% - 93px);
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: inherit;
+}
+.completedButton {
+  background-color: white;
+  border: 1px solid #707070;
+  color: black;
+  width: 199px;
+  position: absolute;
+  top: calc(50% + 137px); 
+  left: calc(50% - 99px);
+}
+
+.completedButton:hover {
+  background-color: #B796E3;
+  color: white;
+}
+.socialLinksIcon {
+  width: 199px;
+  position: absolute;
+  top: calc(50% + 137px);
+  left: calc(50% - 99px);
+}
+.socialLinksIcon {
+  top: calc(50% + 402.07px);
+  left: calc(50% - 32.05px);
+  width: 64.11px;
+  height: 13.43px;
+  object-fit: cover;
+}
+.path22293 {
+  box-sizing: border-box;
+  position: relative;
+  width: 75%;  /* Adjust this percentage to your desired width */
+  margin-right: auto;  /* Automatically adjust the right margin */
+  margin-left: auto;  /* Automatically adjust the left margin */
+  top: calc(50% - 216px);
+  background-color: rgba(221, 160, 221, 0.4);
+  height: 317.61px;
+  overflow: hidden;  /* This will hide any overflowing parts of the image */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.path22293::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, transparent, rgba(0, 0, 0, 0.5) 70%);
+  pointer-events: none; /* Makes sure the overlay doesn't interfere with clicks */
+}
+.insideImage {
+  width: 100%;
+  max-height: 85%;  /* Adjust this as per your requirements */
+  object-fit: contain; 
+  display: block; 
+  margin-bottom: 10px;  /* To give some space between the image and the title */
+}
+
+.imageTitle {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  z-index: 1; /* To ensure the title is above any other positioned content */
+  text-transform: uppercase;
+}
+.kamaRoulette1 {
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 932px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
